@@ -1,0 +1,52 @@
+.elements {
+    position: fixed;
+    left: 15%;
+    display: inline-block;
+    z-index: 100;
+    background-color: white;
+    right: 0;
+    padding-bottom: 10px;
+    padding-top: 18px;
+    padding-left: 5px;
+   
+}
+
+.all-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Roboto;
+}
+
+
+.buttons {
+    background-color: rgb(235, 235, 235);
+    color: black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Roboto;
+    transition: background-color 0.20s; 
+}
+
+.buttons:hover {
+    background-color: rgb(220, 220, 220);
+
+}
+
+.buttons:active {
+    background-color: black;
+    color: white;
+}
+
+
